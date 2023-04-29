@@ -1,8 +1,9 @@
 /*  your css code here. If applicable */
-.para{
-        color:red;
-      }
-/*       .word:before {
-        color: #f00000;
-        content: "Lorem";
-      } */
+p::after{
+	content:"After Element";
+	color:red
+}
+p::before{
+	content:"Before Element";
+	color:red;
+}
